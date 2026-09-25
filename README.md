@@ -1,5 +1,7 @@
 # Brewns — React, GSAP and Three.js recreation
 
+![Brewns Coffee House](assets/brewns-preview.png)
+
 A recording-based coffee website with local assets. This is a recreation, not the original source or a verified pixel-identical copy.
 
 ## Run
