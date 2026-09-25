@@ -1,0 +1,396 @@
+{
+  "inputs": {
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\cjs\\react.production.js": {
+      "bytes": 18040,
+      "imports": [],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\index.js": {
+      "bytes": 186,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\cjs\\react.production.js",
+          "kind": "require-call",
+          "original": "./cjs/react.production.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\scheduler\\cjs\\scheduler.production.js": {
+      "bytes": 10181,
+      "imports": [],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\scheduler\\index.js": {
+      "bytes": 194,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\scheduler\\cjs\\scheduler.production.js",
+          "kind": "require-call",
+          "original": "./cjs/scheduler.production.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\cjs\\react-dom.production.js": {
+      "bytes": 7326,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\index.js",
+          "kind": "require-call",
+          "original": "react"
+        }
+      ],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\index.js": {
+      "bytes": 1359,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\cjs\\react-dom.production.js",
+          "kind": "require-call",
+          "original": "./cjs/react-dom.production.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\cjs\\react-dom-client.production.js": {
+      "bytes": 625168,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\scheduler\\index.js",
+          "kind": "require-call",
+          "original": "scheduler"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\index.js",
+          "kind": "require-call",
+          "original": "react"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\index.js",
+          "kind": "require-call",
+          "original": "react-dom"
+        }
+      ],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\client.js": {
+      "bytes": 1373,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\cjs\\react-dom-client.production.js",
+          "kind": "require-call",
+          "original": "./cjs/react-dom-client.production.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\cjs\\react-jsx-runtime.production.js": {
+      "bytes": 976,
+      "imports": [],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\jsx-runtime.js": {
+      "bytes": 210,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\cjs\\react-jsx-runtime.production.js",
+          "kind": "require-call",
+          "original": "./cjs/react-jsx-runtime.production.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\Sections.jsx": {
+      "bytes": 14766,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\basket.js": {
+      "bytes": 958,
+      "imports": [],
+      "format": "esm"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\gsap\\dist\\gsap.js": {
+      "bytes": 179557,
+      "imports": [],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\gsap\\dist\\ScrollTrigger.js": {
+      "bytes": 115504,
+      "imports": [],
+      "format": "cjs"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\beans.js": {
+      "bytes": 1743,
+      "imports": [],
+      "format": "esm"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\three\\build\\three.core.js": {
+      "bytes": 1458113,
+      "imports": [],
+      "format": "esm"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\three\\build\\three.module.js": {
+      "bytes": 662772,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\three\\build\\three.core.js",
+          "kind": "import-statement",
+          "original": "./three.core.js"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\three\\build\\three.core.js",
+          "kind": "import-statement",
+          "original": "./three.core.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\three\\examples\\jsm\\environments\\RoomEnvironment.js": {
+      "bytes": 4960,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\three\\build\\three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        }
+      ],
+      "format": "esm"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\labels.js": {
+      "bytes": 2244,
+      "imports": [],
+      "format": "esm"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\bag-geometry.js": {
+      "bytes": 688,
+      "imports": [],
+      "format": "esm"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\scenes.js": {
+      "bytes": 4748,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\three\\build\\three.module.js",
+          "kind": "import-statement",
+          "original": "three"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\three\\examples\\jsm\\environments\\RoomEnvironment.js",
+          "kind": "import-statement",
+          "original": "three/addons/environments/RoomEnvironment.js"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\labels.js",
+          "kind": "import-statement",
+          "original": "./labels.js"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\bag-geometry.js",
+          "kind": "import-statement",
+          "original": "./bag-geometry.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\motion.js": {
+      "bytes": 9690,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\gsap\\dist\\gsap.js",
+          "kind": "import-statement",
+          "original": "gsap"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\gsap\\dist\\ScrollTrigger.js",
+          "kind": "import-statement",
+          "original": "gsap/ScrollTrigger"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\beans.js",
+          "kind": "import-statement",
+          "original": "./beans.js"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\scenes.js",
+          "kind": "dynamic-import",
+          "original": "./scenes.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\App.jsx": {
+      "bytes": 6109,
+      "imports": [
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\index.js",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\client.js",
+          "kind": "import-statement",
+          "original": "react-dom/client"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\Sections.jsx",
+          "kind": "import-statement",
+          "original": "./Sections.jsx"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\basket.js",
+          "kind": "import-statement",
+          "original": "./basket.js"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\motion.js",
+          "kind": "import-statement",
+          "original": "./motion.js"
+        },
+        {
+          "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    }
+  },
+  "outputs": {
+    "build/site.js.LEGAL.txt": {
+      "imports": [],
+      "exports": [],
+      "inputs": {},
+      "bytes": 2280
+    },
+    "build/site.js": {
+      "imports": [
+        {
+          "path": "build/chunk-EK7ODJWE.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "build/scenes-2MJZO7GT.js",
+          "kind": "dynamic-import"
+        }
+      ],
+      "exports": [],
+      "entryPoint": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\App.jsx",
+      "inputs": {
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\cjs\\react.production.js": {
+          "bytesInOutput": 8014
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\index.js": {
+          "bytesInOutput": 51
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\scheduler\\cjs\\scheduler.production.js": {
+          "bytesInOutput": 3662
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\scheduler\\index.js": {
+          "bytesInOutput": 51
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\cjs\\react-dom.production.js": {
+          "bytesInOutput": 3666
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\index.js": {
+          "bytesInOutput": 253
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\cjs\\react-dom-client.production.js": {
+          "bytesInOutput": 206197
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react-dom\\client.js": {
+          "bytesInOutput": 253
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\cjs\\react-jsx-runtime.production.js": {
+          "bytesInOutput": 364
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\jsx-runtime.js": {
+          "bytesInOutput": 51
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\gsap\\dist\\gsap.js": {
+          "bytesInOutput": 71579
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\gsap\\dist\\ScrollTrigger.js": {
+          "bytesInOutput": 45179
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\App.jsx": {
+          "bytesInOutput": 6184
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\Sections.jsx": {
+          "bytesInOutput": 20660
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\basket.js": {
+          "bytesInOutput": 728
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\motion.js": {
+          "bytesInOutput": 7552
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\beans.js": {
+          "bytesInOutput": 1413
+        }
+      },
+      "bytes": 375967
+    },
+    "build/scenes-2MJZO7GT.js.LEGAL.txt": {
+      "imports": [],
+      "exports": [],
+      "inputs": {},
+      "bytes": 188
+    },
+    "build/scenes-2MJZO7GT.js": {
+      "imports": [
+        {
+          "path": "build/chunk-EK7ODJWE.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "createProductScenes"
+      ],
+      "entryPoint": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\scenes.js",
+      "inputs": {
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\three\\build\\three.core.js": {
+          "bytesInOutput": 195598
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\three\\build\\three.module.js": {
+          "bytesInOutput": 354998
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\three\\examples\\jsm\\environments\\RoomEnvironment.js": {
+          "bytesInOutput": 1949
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\labels.js": {
+          "bytesInOutput": 2050
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\bag-geometry.js": {
+          "bytesInOutput": 554
+        },
+        "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\scenes.js": {
+          "bytesInOutput": 2653
+        }
+      },
+      "bytes": 557936
+    },
+    "build/chunk-EK7ODJWE.js": {
+      "imports": [],
+      "exports": [
+        "a",
+        "b"
+      ],
+      "inputs": {},
+      "bytes": 544
+    }
+  }
+}

@@ -1,0 +1,40 @@
+/* Third pass: dense 0.2-second reference review, September 15. */
+.hero-cup{display:none;position:absolute;left:3%;top:31%;width:55%;height:62%;filter:drop-shadow(15px 30px 22px #0006);pointer-events:none}
+.cup-rendered .hero-cup{display:block}
+
+.cup-rendered .hero-float img{transform:scale(1.33);transition:opacity 0.63s;will-change:opacity}
+.story canvas.story-cup{display:none;inset:auto;left:1%;bottom:-16%;width:56%;height:91%;z-index:3;filter:drop-shadow(15px 30px 22px #0008)}
+.story.cup-rendered .story-cup{display:block}.story.cup-rendered .floating-cup{visibility:hidden}
+.product-card,.product-card:hover{transform:none;background:transparent;box-shadow:none}.product-card img,.product-card:hover img{--image-scale:1;--card-lift:0px;--image-x:0px;--image-y:0px}
+.product-card.entering{--entry-y:20px;--image-opacity:0}.product-number{display:none}
+.receipt-window{clip-path:none}.receipt{transform:translateY(calc(-103% + var(--receipt-progress,0) * 103%));will-change:transform}
+.story{height:115svh;min-height:880px}.story-copy{display:grid;grid-template-columns:40% 27% 1fr;align-items:end;gap:2%;left:2.7%;right:2.7%;bottom:34px;z-index:4}.story-copy .eyebrow{font-size:12px;color:#ccc6bd;margin:0}.story-copy>p.philosophy{font-size:13px;line-height:1.35;letter-spacing:-.45px;margin:0;font-weight:700}.story-copy>p.ritual{font-size:12px;line-height:1.35;letter-spacing:0;margin:0;text-align:right;font-weight:400}
+.location-hours{right:2.7%;gap:0}.location-hours strong{font-size:13px}.location-addresses{gap:23px;bottom:7%}
+.order{height:112svh;min-height:870px}.order-bottom{display:block;left:2.7%;bottom:36px;font-family:Consolas,monospace;font-size:13px;font-weight:400;line-height:1.25;margin:0}.order-schedule{position:absolute;right:2.7%;bottom:126px;width:24%;font-size:13px;line-height:1.3;letter-spacing:-.35px;z-index:2;margin:0}.order-now{display:inline-flex;right:auto;left:calc(73.3%);bottom:36px;font-size:13px}.receipt-scene{top:13%}
+.site-footer{position:relative;overflow:hidden;background:#080808;padding:38px 2.7% 80px;min-height:340px}.footer-columns{position:relative;display:grid;grid-template-columns:24% 12% 14% 30% 20%;z-index:2}.footer-columns>div{display:flex;align-items:flex-start;flex-direction:column;gap:13px}.footer-columns p{margin:0}.footer-columns .wordmark{font-size:24px;margin-bottom:28px}.footer-columns a:not(.wordmark),.footer-columns button{font:13px Consolas,monospace;color:#878780}.footer-columns a:hover,.footer-columns button:hover{color:#eee}.footer-columns>div:first-child p{font-size:10px;color:#878780;line-height:1.2}.footer-rule{position:relative;border-top:1px solid #ffffff0c;margin-top:48px}.footer-watermark{position:absolute;font-family:'Brush Script MT',cursive;font-size:1100px;line-height:.6;right:0;top:-170px;color:#ffffff02;pointer-events:none;transform:rotate(30deg)}
+@media(max-width:800px){.story-copy{grid-template-columns:32% 42% 1fr}.story-copy>p.philosophy{font-size:11px}.story-copy>p.ritual,.story-copy .eyebrow{font-size:9px}.order-schedule{width:27%;font-size:11px}.order-now{left:70.3%;font-size:11px}.footer-columns{grid-template-columns:24% 17% 17% 22% 20%}.footer-columns a:not(.wordmark),.footer-columns button{font-size:10px}}
+@media(max-width:520px){.hero-cup{top:30%;left:1%;height:63%;width:56%}.story{height:110svh;min-height:860px}.story canvas.story-cup{left:-20%;width:125%;height:75%;bottom:8%}.story-copy{grid-template-columns:1fr 1fr;gap:18px;bottom:30px}.story-copy>p.philosophy{grid-column:1 / -1;grid-row:1;font-size:11px;max-width:300px}.story-copy>p.ritual{grid-column:2}.story-copy .eyebrow{align-self:end}.order{height:110svh;min-height:970px}.receipt-scene{top:23%}.order-bottom{font-size:10px;bottom:34px}.order-schedule{width:45%;font-size:10px;bottom:80px}.order-now{left:52.3%;font-size:10px;bottom:34px}.footer-columns{grid-template-columns:1fr 1fr;gap:28px}.footer-columns>div:first-child{grid-column:1 / -1}.footer-columns .wordmark{margin:0}.footer-columns a:not(.wordmark),.footer-columns button{font-size:11px}.site-footer{padding-top:32px}.location-addresses{font-size:9px;gap:16px}}
+@media(prefers-reduced-motion:reduce){.receipt{transform:none!important}.story-cup{transform:none!important}}
+@media(min-width:521px){.hero-cup{top:25.5%}.story canvas.story-cup{height:75%;bottom:-15%}.cup-rendered .hero-float img{transform:translateX(55px) scale(1.25)}}
+.product-number{display:block}.hero h1 em{font-family:'Segoe Script','Brush Script MT',cursive;font-weight:400;font-size:.64em;letter-spacing:-4px}
+@media(min-width:521px){.story{height:108svh;min-height:880px}.story canvas.story-cup{bottom:-25%}}
+/* Independent hero geometry: no composite image is displayed behind the objects. */
+.hero-bag{display:none;position:absolute;left:37%;top:-2%;width:70%;height:100%;pointer-events:none;filter:drop-shadow(15px 25px 24px #0005)}
+.hero-stage.bag-rendered.cup-rendered .hero-bag{display:block}.hero-stage.bag-rendered.cup-rendered .hero-float{display:none}
+.hero-stage:not(.bag-rendered) .hero-cup{display:none}.hero-stage:not(.bag-rendered) .hero-float{clip-path:none}
+.hero-cup{z-index:2}.hero-stage{opacity:0;transition:opacity 0.63s cubic-bezier(.23,1,.32,1)}.ready .hero-stage{opacity:1}
+@media(max-width:520px){.hero-bag{left:32%;top:-8%;width:80%;height:108%}}
+@media(prefers-reduced-motion:reduce){.hero-stage{opacity:1}}
+.price-digit{display:inline-block;height:1em;line-height:1;overflow:hidden;vertical-align:-.12em;width:.6em}.price-strip{display:block;line-height:1;will-change:transform}.price-strip>span{height:1em;display:block}
+.word-reveal>span{display:inline-block;opacity:0;transform:translateY(7px);transition:opacity 0.42s cubic-bezier(.23,1,.32,1),transform 0.42s cubic-bezier(.23,1,.32,1);transition-delay:calc(var(--word-i)*12.6ms)}.word-reveal.visible>span{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.word-reveal>span{opacity:1;transform:none}}
+@media(min-width:521px){.locations{padding-top:78px}}
+
+.locations{padding-top:78px}
+/* Opening sequence: upright fill, brief 100% hold, direct handoff to hero. */
+.loading-cup{transform:none;transform-origin:center bottom}.loader{transition:opacity 0.28s cubic-bezier(.23,1,.32,1),visibility 0.28s}.loader.done{opacity:0;visibility:hidden}.hero-stage,.ready .hero-stage{opacity:1;transition:none}.hero h1 .motion-line>.line-content{transition-duration:0.49s;transition-delay:calc(var(--line-i,0)*49ms)}.hero h1 em .line-content{transition:clip-path 0.7s linear;transition-delay:0.21s}
+@media(min-width:801px){.menu-heading{margin-bottom:clamp(100px,28vh,236px)}}
+.hero h1 em.motion-line>.line-content{transition:clip-path 0.7s linear;transition-delay:0.21s}
+/* Keep the story cup's center at 29%, but give its rotating mesh room to draw.
+   A 56%-wide WebGL viewport clipped the lid at narrow desktop widths. */
+@media(min-width:521px){.story canvas.story-cup{left:max(-21%,calc(220px - 50%));width:100%}}

@@ -1,0 +1,21 @@
+/* GSAP owns animated properties. Disable legacy transition controllers. */
+.reveal,.motion-line>.line-content,.hero h1 .motion-line>.line-content,.hero h1 em.motion-line>.line-content,.word-reveal>span,.product-card img,.hero-stage,.clock-drink,.receipt,.loader,.coffee-fill,.nav-reveal{transition:none!important;animation:none!important}
+.motion-line>.line-content,.word-reveal>span{transform:none;opacity:1}
+.hero h1 em .line-content,.text-reveal,.nav-reveal{clip-path:none}
+.hero-stage{opacity:1;touch-action:pan-y}
+.receipt{transform:none}
+.product-card img{opacity:1;transform:none}
+.story canvas.story-cup{max-width:none}
+.clock-drink{transform:none}
+.ready .hero-stage img{opacity:1}
+.loader.done{display:none}
+.product-hover{transition:opacity .16s,transform .2s}
+@media(min-width:521px) and (max-width:800px){.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.product-meta{font-size:12px}.story-copy{grid-template-columns:28% 48% 1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.product-hover{transition:none}.hero-stage,.clock-drink,.receipt{transform:none!important}}
+
+@media(min-width:521px){.story canvas.story-cup{left:-21%}.story-copy{grid-template-columns:40% 27% 1fr}}
+
+
+/* SVG height controls the loader fill; do not collapse it with legacy scaleY. */
+.coffee-fill{transform:none!important}
+
