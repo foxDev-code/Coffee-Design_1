@@ -1,4 +1,6 @@
-# Brewns — React, GSAP and Three.js recreation
+# Ember Coffee House — React, GSAP and Three.js recreation
+
+Renamed from Brewns to Ember Coffee House. The live text, loader, receipt, favicon and procedural 3D packaging use Ember. The project folder and basket storage key remain stable. Historical reference images and the static PNG product fallbacks retain the original artwork.
 
 ![Brewns Coffee House](assets/brewns-preview.png)
 

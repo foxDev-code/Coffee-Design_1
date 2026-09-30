@@ -103,7 +103,7 @@
       "format": "cjs"
     },
     "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\Sections.jsx": {
-      "bytes": 14766,
+      "bytes": 14759,
       "imports": [
         {
           "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\index.js",
@@ -171,7 +171,7 @@
       "format": "esm"
     },
     "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\labels.js": {
-      "bytes": 2244,
+      "bytes": 2242,
       "imports": [],
       "format": "esm"
     },
@@ -233,7 +233,7 @@
       "format": "esm"
     },
     "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\App.jsx": {
-      "bytes": 6109,
+      "bytes": 6106,
       "imports": [
         {
           "path": "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\node_modules\\react\\index.js",
@@ -283,7 +283,7 @@
           "kind": "import-statement"
         },
         {
-          "path": "build/scenes-2MJZO7GT.js",
+          "path": "build/scenes-ZZ53ARDD.js",
           "kind": "dynamic-import"
         }
       ],
@@ -327,10 +327,10 @@
           "bytesInOutput": 45179
         },
         "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\App.jsx": {
-          "bytesInOutput": 6184
+          "bytesInOutput": 6181
         },
         "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\Sections.jsx": {
-          "bytesInOutput": 20660
+          "bytesInOutput": 20653
         },
         "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\basket.js": {
           "bytesInOutput": 728
@@ -342,15 +342,15 @@
           "bytesInOutput": 1413
         }
       },
-      "bytes": 375967
+      "bytes": 375957
     },
-    "build/scenes-2MJZO7GT.js.LEGAL.txt": {
+    "build/scenes-ZZ53ARDD.js.LEGAL.txt": {
       "imports": [],
       "exports": [],
       "inputs": {},
       "bytes": 188
     },
-    "build/scenes-2MJZO7GT.js": {
+    "build/scenes-ZZ53ARDD.js": {
       "imports": [
         {
           "path": "build/chunk-EK7ODJWE.js",
@@ -372,7 +372,7 @@
           "bytesInOutput": 1949
         },
         "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\labels.js": {
-          "bytesInOutput": 2050
+          "bytesInOutput": 2048
         },
         "project:C:\\Users\\Satyarth\\Documents\\Codex\\2026-09-14\\cop\\outputs\\brewns\\src\\bag-geometry.js": {
           "bytesInOutput": 554
@@ -381,7 +381,7 @@
           "bytesInOutput": 2653
         }
       },
-      "bytes": 557936
+      "bytes": 557934
     },
     "build/chunk-EK7ODJWE.js": {
       "imports": [],
